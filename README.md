@@ -11,7 +11,7 @@
 - Author
 
 ## Overview
-This project is a responsive website for finding a meal recipe. It showcases a hotel website that highlights a variety of recipes each including the meal name, description, list of ingredients a button to click and watch the recipe video. It has a user-friendly layout and aesthetic layout.
+This project is a responsive website for finding a meal recipe. It showcases a hotel website that highlights a variety of recipes each including the meal name, description, list of ingredients a "watch video" button for video instructions. It has a user-friendly layout and aesthetic layout.
 
 ## Design and 
 The structure was made using HTML and JavaScript. rendered dynamically using JavaScript
