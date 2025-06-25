@@ -14,11 +14,11 @@ const fetchMeals = async () => {
     let ingredients = [];
     for (let i = 1; i <= 5; i++) {
         const ingredient =
-        meal[`strIngredients${i}`]
+        meal[`strIngredient${i}`]
         const measure = meal[`strMeasure${i}`];
 
         if (ingredient) {
-            ingredients.push(`${ingredient} - $ {measure}`);
+            ingredients.push(`${ingredient} - ${measure}`);
         }
     }
     return ingredients;
@@ -38,10 +38,10 @@ const displayMeals = (meals) => {
         <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
         <h2>${meal.strMeal}</h2>
         <p>${meal.strInstructions.slice(0, 100)}...<p>
-        <ul>
-        ${ingredients.map(item => `<li>${item}</li>`).join('')}
+        <ul class="meal-ingredients">
+        ${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
         </ul>
-        <a href="${meal.strYoutube}" target="_blank">Watch Recipe</a>
+        <a href="${meal.strYoutube}" target="_blank">Watch Video</a>
     `;
 
     mealList.appendChild(mealCard);
