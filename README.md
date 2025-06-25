@@ -16,7 +16,8 @@ This project is a responsive website for finding a meal recipe. It showcases a h
 ## Design and 
 The structure was made using HTML and JavaScript. rendered dynamically using JavaScript
 The page is styled using CSS and follows modern design principles;
-- Background: White 
+- Body background: Whitesmoke
+- Card background: White 
 - Responsive design
 - Ensures an optimised experience for mobile users.
 - Layout adapts seamlessly for varying screen resolutions.
@@ -32,7 +33,7 @@ styles.css: contains the styling rules for the webpage
 script.js: contains the content fetched by API dynamically rendered
 
 ## Live Demo
-Checkout the live version of the project [here](link).
+Checkout the live version of the project [here](https://recipe-website-i6qi.onrender.com).
 
 Watch the presentation [here](link).
 
