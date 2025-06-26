@@ -7,7 +7,7 @@
 - How to run
 - Folder structure
 - Live Demo
-- Presentation
+- Presentation video
 - Author
 
 ## Overview
@@ -35,7 +35,8 @@ script.js: contains the content fetched by API dynamically rendered
 ## Live Demo
 Checkout the live version of the project [here](https://recipe-website-i6qi.onrender.com).
 
-Watch the presentation [here](link).
+## Presentation video
+Watch the presentation [here](https://www.loom.com/share/7d337f66df494b96a3070aa60f3cb1d1).
 
 ## Author
 Name: [Rabia Isah Yusuf] Contact: [risahyusuf@gmail.com] Github: risahyusuf
